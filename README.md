@@ -22,3 +22,5 @@ $ main.exe
 6. Done. File will be made in the same folder as the .exe.
 
 You will need a RapidAPI key from this vendor: https://rapidapi.com/apigeek/api/google-search3/
+
+Follow: https://twitter.com/Purchases
