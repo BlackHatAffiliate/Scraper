@@ -8,8 +8,11 @@ You will need to compile this with Go. Can be done quite easily, works with all 
 2. Locate the folder in CMD/Terminal
 
 3. Run:
+
 $ SET RAPIDAPI_KEY=<YOUR_RAPIDAPI_KEY>
+
 $ SET LISTEN_ADDR=127.0.0.1:8181 
+
 $ main.exe
 
 4. Open browser and go to http://localhost:8181
