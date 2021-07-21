@@ -1,1 +1,25 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <form style="text-align: center" autocomplete="off" method="POST" action="/search">
+    <p>
+      <textarea name="keywords" spellcheck="false" rows="13" cols="30" placeholder="List of keywords" required></textarea>
+    </p>
+    <p style="display: inline-flex; place-content: center; flex-wrap: wrap; margin: 0 auto; gap: .6rem;">
+      <label>cr: <input type="text" name="cr" placeholder="NO" required></label>
+      <label>lr: <input type="text" name="lr" placeholder="lang_de" required></label>
+    </p>
+    <p>
+      <label>num: <input type="number" name="num" min="5" value="100" required></label>
+    </p>
+    <p>
+      <button>Submit!</button>
+    </p>
+  </form>
+</body>
+</html>
